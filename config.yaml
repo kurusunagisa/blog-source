@@ -15,7 +15,7 @@ DefaultContentLanguage: ja
 hasCJKLanguage: true
 
 permalinks:
-    post: /blog/p/:year/:month/:slug/
+    post: /p/:year/:month/:slug/
     page: /blog/:title/
 
 params:
@@ -99,7 +99,7 @@ menu:
     main:
         - identifier: home
           name: ホーム
-          url: /
+          url: /blog/
           weight: -100
           params:
               newTab: false
