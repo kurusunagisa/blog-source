@@ -2,7 +2,7 @@ name: Deploy Hugo
 
 # GitHub Actionsのトリガーを好きなように設定する
 on:
-push:
+  push:
     branches:
     - main
 
