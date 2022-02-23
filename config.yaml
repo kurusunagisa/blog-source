@@ -104,7 +104,8 @@ menu:
           params:
               newTab: false
               icon: home
-          
+
+
     # アイコン下
     social:
         - identifier: github
