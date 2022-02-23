@@ -1,4 +1,4 @@
-baseurl: https://kurusunagisa.github.io/
+baseurl: https://kurusunagisa.github.io/blog/
 languageCode: ja-jp
 theme: hugo-theme-stack
 paginate: 5
