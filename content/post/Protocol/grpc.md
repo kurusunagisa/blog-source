@@ -32,5 +32,6 @@ GolangではgrpcというモジュールをインポートするだけでgRPCが
 ## なぎさの一言
 {{<chat face="doya" text="gRPCはハイスペックだけど普及率など問題点も多い！そのため時と場合に応じた技術選定が必要ですね！">}}
 
-##　参考文献
+## 参考文献
+
 https://knowledge.sakura.ad.jp/24059/
