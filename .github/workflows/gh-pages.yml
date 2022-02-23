@@ -32,6 +32,6 @@ jobs:
         with:
           source-directory: "public"
           destination-github-username: "kurusunagisa"
-          destination-repository-name: "blog"
+          destination-repository-name: "kurusunagisa.github.io"
           user-email: kurusunagisa963@gmail.com
           target-branch: main

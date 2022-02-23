@@ -16,7 +16,7 @@ hasCJKLanguage: true
 
 permalinks:
     post: /p/:year/:month/:slug/
-    page: /blog/:title/
+    page: /:title/
 
 params:
     mainSections:
@@ -99,7 +99,7 @@ menu:
     main:
         - identifier: home
           name: ホーム
-          url: /blog/
+          url: /
           weight: -100
           params:
               newTab: false
