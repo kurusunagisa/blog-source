@@ -26,11 +26,12 @@ jobs:
         run: hugo --minify
 
       - name: Push to blog repo
-        uses: cpina/github-action-push-to-another-repository@master
+        uses: cpina/github-action-push-to-another-repository@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.HUGO_DEPLOY_TOKEN }}
-          with:
-            source-directory: "public"
-            destination-github-username: "kurusunagisa"
-            destination-repository-name: "blog"
-            user-email: kurusunagisa963@gmail.com
+        with:
+          source-directory: "public"
+          destination-github-username: "kurusunagisa"
+          destination-repository-name: "blog"
+          user-email: kurusunagisa963@gmail.com
+          target-branch: main
