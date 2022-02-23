@@ -1,14 +1,11 @@
-+++
-title = "初めまして！"
-date = "2022-02-08"
-categories = [
-    "その他"
-]
-tags = [
-    "自己紹介",
-]
-image = ""
-+++
+---
+title: "初めまして！"
+slug: hajimemashite
+date: 2022-02-08T15:35:48+09:00
+with_date: true
+categories: ["その他"]
+tags: ["自己紹介"]
+---
 
 
 {{< chat face="rough" text="こんにちは！！！来栖なぎさです！！">}}
