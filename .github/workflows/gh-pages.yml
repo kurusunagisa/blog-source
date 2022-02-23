@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-deploy:
+  deploy:
     runs-on: ubuntu-20.04
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
@@ -16,21 +16,21 @@ deploy:
           submodules: true 
           fetch-depth: 0   
 
-    - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: "0.92.2"
-          extended: true
+      - name: Setup Hugo
+          uses: peaceiris/actions-hugo@v2
+          with:
+            hugo-version: "0.92.2"
+            extended: true
 
-    - name: Build
-        run: hugo --minify
+      - name: Build
+          run: hugo --minify
 
-    - name: Push to blog repo
-        uses: cpina/github-action-push-to-another-repository@master
-        env:
-        API_TOKEN_GITHUB: ${{ secrets.HUGO_DEPLOY_TOKEN }}
-        with:
-        source-directory: "public"
-        destination-github-username: "kurusunagisa"
-        destination-repository-name: "blog"
-        user-email: kurusunagisa963@gmail.com
+      - name: Push to blog repo
+          uses: cpina/github-action-push-to-another-repository@master
+          env:
+          API_TOKEN_GITHUB: ${{ secrets.HUGO_DEPLOY_TOKEN }}
+          with:
+          source-directory: "public"
+          destination-github-username: "kurusunagisa"
+          destination-repository-name: "blog"
+          user-email: kurusunagisa963@gmail.com
