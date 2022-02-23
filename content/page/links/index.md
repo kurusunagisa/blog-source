@@ -1,5 +1,6 @@
 ---
 title: リンク
+slug: "links"
 links:
   - title: GitHub
     #description: 私のgithubです！
