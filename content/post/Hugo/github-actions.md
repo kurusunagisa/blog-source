@@ -1,10 +1,10 @@
 ---
 title: "Github Actions"
 slug: github-actions
-date: 2022-02-23T22:16:16+09:00
-categories: ["Hugo"]
+date: 2022-02-23T18:34:50+09:00
+categories: ["HUGO"]
 with_date: true
-tags: ["Github","Hugo"]
+tags: ["HUGO","Github"]
 ---
 
 Github Actionsを使いたいとき、yamlファイルにアクションを定義します。ここでは、アップロード先のリポジトリをblog-sourceにしてGithub　Actionsでビルド、blogリポジトリにビルド結果をpushすることでソースをblog-source、ブログの静的ファイルをblogに置くこととします。このとき、blog-sourceにアップロードする`blog-source/.github/workflows/gh-pages.yml`は以下のように書きます 。

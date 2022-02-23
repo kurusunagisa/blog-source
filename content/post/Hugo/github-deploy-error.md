@@ -2,9 +2,9 @@
 title: "Github Deploy Error"
 slug: github-deploy-error
 date: 2022-02-22T22:16:16+09:00
-categories: ["Hugo"]
+categories: ["HUGO"]
 with_date: true
-tags: ["Github","Hugo"]
+tags: ["Github","HUGO"]
 ---
 
 ## エラー内容
