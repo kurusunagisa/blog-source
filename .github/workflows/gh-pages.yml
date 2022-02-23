@@ -1,12 +1,12 @@
 name: Deploy Hugo
 
 on:
-  push:
-    branches:
-    - main
+    push:
+        branches:
+        - main
 
 jobs:
-	deploy:
+  build:
     runs-on: ubuntu-20.04
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
